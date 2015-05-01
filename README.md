@@ -1,0 +1,1 @@
+This project is builded with a gulp `bower` task of [lazyarray-lite project](https://github.com/xgbuils/lazyarray-lite)

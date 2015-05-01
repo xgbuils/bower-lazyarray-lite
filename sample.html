@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="lazyarray-lite.js"></script>
+	<script>
+
+    var la = new LazyArray(function (i) {
+        return 2 * i
+    }) // 0, 2, 4, 6, 8... 
+     
+    console.log(la.slice(2, 5)) // [2, 6, 8] 
+    console.log(la.get(5)) // 10 
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
